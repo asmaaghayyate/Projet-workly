@@ -1,0 +1,57 @@
+
+    .tarif-card {
+      background-color: #fff0f0;
+      padding: 20px;
+      border-radius: 15px;
+      height: 100%;
+    }
+
+    .hero-image {
+      width: 100%;
+      border-radius: 20px;
+      object-fit: cover;
+      height: 300px;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      padding: 40px 0;
+    }
+.footer-title-workly {
+      
+      font-weight: bold;
+     font-size: 50px;
+      margin-bottom: 50px;
+    }
+    
+.footer-title {
+      
+      font-weight: bold;
+     
+      margin-bottom: 50px;
+    }
+    .btn-orange {
+      background-color: #ff7b00;
+      border: none;
+      color: white;
+    }
+
+    .btn-orange:hover {
+      background-color: #e06900;
+    }
+
+.hero-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+  
