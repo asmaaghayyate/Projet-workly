@@ -10,24 +10,32 @@
 
   
 </head>
+
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Workly</a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="#espace">Nos espaces</a></li>
-          <li class="nav-item"><a class="nav-link" href="#tarif">Tarifs</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <a class="btn btn-orange" href="#">Réserver</a>
-      </div>
-      
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Workly</a>
+
+    <!-- Bouton burger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWorkly" aria-controls="navbarWorkly" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu à cacher/afficher -->
+    <div class="collapse navbar-collapse" id="navbarWorkly">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#espace">Nos espaces</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tarif">Tarifs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-orange" href="#">Réserver</a>
     </div>
-  </nav>
+  </div>
+</nav>
+
 
   <!-- Hero Image -->
 <div class="container mt-5 position-relative">
@@ -145,6 +153,7 @@
       </div>
     </div>
   </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
